@@ -9,9 +9,9 @@ public class main {
 		
 		for(int x = 1; x <= 100; x++) {
 			if(x%3 == 0 && x%5 != 0) {
-				System.out.println(x + " - Fizz");
+				System.out.println(x + " - Coca");
 			} else if(x%5 == 0 && x%3 != 0) {
-				System.out.println(x + " - Cola");
+				System.out.println(x + " - Buzz");
 			} else if(x%3 == 0 && x%5 == 0) {
 				System.out.println(x + " - CocaCola");
 			}
