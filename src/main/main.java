@@ -13,7 +13,7 @@ public class main {
 			} else if(x%5 == 0 && x%3 != 0) {
 				System.out.println(x + " - Cola");
 			} else if(x%3 == 0 && x%5 == 0) {
-				System.out.println(x + " - CocaCola");
+				System.out.println(x + " - FizzBuzz");
 			}
 			else {
 				System.out.println(x);
