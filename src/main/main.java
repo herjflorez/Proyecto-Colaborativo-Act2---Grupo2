@@ -11,9 +11,9 @@ public class main {
 			if(x%3 == 0 && x%5 != 0) {
 				System.out.println(x + " - Fizz");
 			} else if(x%5 == 0 && x%3 != 0) {
-				System.out.println(x + " - Cola");
+				System.out.println(x + " - hola");
 			} else if(x%3 == 0 && x%5 == 0) {
-				System.out.println(x + " - CocaCola");
+				System.out.println(x + " - ParatimiCola");
 			}
 			else {
 				System.out.println(x);
