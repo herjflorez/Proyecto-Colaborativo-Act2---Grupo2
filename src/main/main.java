@@ -9,11 +9,11 @@ public class main {
 		
 		for(int x = 1; x <= 100; x++) {
 			if(x%3 == 0 && x%5 != 0) {
-				System.out.println(x + " - Coca");
+				System.out.println(x + " - fanta");
 			} else if(x%5 == 0 && x%3 != 0) {
-				System.out.println(x + " - Cola");
+				System.out.println(x + " - sprite");
 			} else if(x%3 == 0 && x%5 == 0) {
-				System.out.println(x + " - CocaCola");
+				System.out.println(x + " - FizzBuzz");
 			}
 			else {
 				System.out.println(x);
